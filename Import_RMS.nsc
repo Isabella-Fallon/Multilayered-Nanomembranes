@@ -1,0 +1,27 @@
+doc = GetActiveDocument()
+
+% 10-30 Hz
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_1_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_2_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_3_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_4_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_5_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_6_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_7_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_8_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_9_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_10_bandpass10_30hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_11_bandpass10_30hz_clean", 1)
+
+% 1-10 Hz
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_1_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_2_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_3_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_4_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_5_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_6_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_7_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_8_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_9_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_10_bandpass1_10hz_clean", 1)
+GetContVarWithTimestampsFromMatlab(doc, "RMS_raw_11_bandpass1_10hz_clean", 1)

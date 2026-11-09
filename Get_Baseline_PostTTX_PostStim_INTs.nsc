@@ -1,0 +1,41 @@
+%M1 stim
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 0, 180)
+doc.Poststim = NewIntEvent(doc, 0)
+AddInterval(doc.Poststim, 603, 783)
+
+%M1 ttx
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 480, 660)
+doc.PostTTX = NewIntEvent(doc, 0)
+AddInterval(doc.PostTTX, 660, 840)
+
+%M2 stim
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 20, 200)
+doc.Poststim = NewIntEvent(doc, 0)
+AddInterval(doc.Poststim, 423, 603)
+
+%M2 ttx
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 0, 180)
+doc.PostTTX = NewIntEvent(doc, 0)
+AddInterval(doc.PostTTX, 660, 840)
+
+%M3 stim
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 0, 180)
+doc.Poststim = NewIntEvent(doc, 0)
+AddInterval(doc.Poststim, 423, 603)
+
+%M3 ttx
+doc = GetActiveDocument()
+doc.Baseline = NewIntEvent(doc, 0)
+AddInterval(doc.Baseline, 420, 600)
+doc.PostTTX = NewIntEvent(doc, 0)
+AddInterval(doc.PostTTX, 660, 840)

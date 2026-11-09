@@ -1,0 +1,18 @@
+doc = GetActiveDocument()
+
+DeselectAll(doc)
+
+% get neural spikes
+Select(doc, doc["raw_1_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_2_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_3_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_4_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_5_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_6_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_7_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_8_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_9_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_10_bandpass300_3000hz_clean"])
+Select(doc, doc["raw_11_bandpass300_3000hz_clean"])
+
+ApplyTemplate(doc, "Detect_NEURAL_Spikes_Jun")

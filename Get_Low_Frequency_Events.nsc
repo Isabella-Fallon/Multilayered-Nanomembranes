@@ -1,0 +1,38 @@
+doc = GetActiveDocument()
+
+% get events: 10-30 Hz
+DeselectAll(doc)
+
+Select(doc, doc["raw_1_bandpass10_30hz_clean"])
+Select(doc, doc["raw_2_bandpass10_30hz_clean"])
+Select(doc, doc["raw_3_bandpass10_30hz_clean"])
+Select(doc, doc["raw_4_bandpass10_30hz_clean"])
+Select(doc, doc["raw_5_bandpass10_30hz_clean"])
+Select(doc, doc["raw_6_bandpass10_30hz_clean"])
+Select(doc, doc["raw_7_bandpass10_30hz_clean"])
+Select(doc, doc["raw_8_bandpass10_30hz_clean"])
+Select(doc, doc["raw_9_bandpass10_30hz_clean"])
+Select(doc, doc["raw_10_bandpass10_30hz_clean"])
+Select(doc, doc["raw_11_bandpass10_30hz_clean"])
+
+ApplyTemplate(doc, "Detect_EMG_Spikes_Jun")
+
+
+doc = GetActiveDocument()
+
+% get events: 1-10 Hz
+DeselectAll(doc)
+
+Select(doc, doc["raw_1_bandpass1_10hz_clean"])
+Select(doc, doc["raw_2_bandpass1_10hz_clean"])
+Select(doc, doc["raw_3_bandpass1_10hz_clean"])
+Select(doc, doc["raw_4_bandpass1_10hz_clean"])
+Select(doc, doc["raw_5_bandpass1_10hz_clean"])
+Select(doc, doc["raw_6_bandpass1_10hz_clean"])
+Select(doc, doc["raw_7_bandpass1_10hz_clean"])
+Select(doc, doc["raw_8_bandpass1_10hz_clean"])
+Select(doc, doc["raw_9_bandpass1_10hz_clean"])
+Select(doc, doc["raw_10_bandpass1_10hz_clean"])
+Select(doc, doc["raw_11_bandpass1_10hz_clean"])
+ApplyTemplate(doc, "Detect_EMG_Spikes_lowfreq_Jun")
+
